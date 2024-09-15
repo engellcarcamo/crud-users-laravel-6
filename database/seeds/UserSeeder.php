@@ -16,11 +16,13 @@ class UserSeeder extends Seeder
             'name' => 'engels carcamo',
             'email' => 'engelscarcamo59@gmail.com',
             'password' => bcrypt('1234'),
+            'profession_id' => rand(1,4)
         ]);
         DB::table('users')->insert([
             'name' => 'snyder carcamo',
-            'email' => 'engelscarcamo59@gmail.com',
+            'email' => 'esnaydercarcamo59@gmail.com',
             'password' => bcrypt('1234'),
+            'profession_id' => rand(1,4)
         ]);
     }
 }
